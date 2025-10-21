@@ -1,0 +1,92 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg
+*.egg-info/
+*.log
+*.sqlite3
+instance/
+.env
+.env.*
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === Flask specific ===
+# Flask instance folder (holds config/secrets)
+instance/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# === Byte-compiled / cache ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Distribution / packaging ===
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.manifest
+*.spec
+pip-wheel-metadata/
+share/python-wheels/
+
+# === Testing ===
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+cover/
+
+# === Environment ===
+.env
+.env.local
+.env.*.local
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints
+
+# === MyPy / Type checking ===
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# === Logs ===
+*.log
+
+# === OS files ===
+Thumbs.db
+.DS_Store
+
+# === Docker ===
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
